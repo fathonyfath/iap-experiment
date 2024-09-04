@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="orderId"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/order_id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="orderId" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="products"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/products_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="products" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="purchaseTime"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/purchase_time_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="purchaseTime" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="purchaseState"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/purchase_state_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="purchaseState" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="isAcknowledged"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/is_acknowledged_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="isAcknowledged" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="isAutoRenewing"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/is_auto_renewing_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="isAutoRenewing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="packageName"
+        android:textAppearance="?textAppearanceLabelMedium"
+        android:textColor="?colorOnBackground" />
+
+    <TextView
+        android:id="@+id/package_name_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceTitleMedium"
+        android:textColor="?colorOnBackground"
+        tools:text="packageName" />
+
+</LinearLayout>
